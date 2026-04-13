@@ -25,6 +25,9 @@ System.out.println("*     *\n");
 
 
 System.out.println("*   *\n * * \n  *  \n *  * \n*    *");
+
+
+
 	}
 
 }
