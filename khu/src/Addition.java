@@ -8,7 +8,7 @@ public class Addition {
 			try {
 //				int a=Integer.parseInt(IO.readln("ENTER FNO:"));
 //				int a=Integer.parseInt(IO.readln("ENTER SNO:"));
-				INT RES=Addition.add(a,b);
+				int RES=Addition.add(a,b);
 				System.out.println("RESULT:"+res);
 				break;
 			}
