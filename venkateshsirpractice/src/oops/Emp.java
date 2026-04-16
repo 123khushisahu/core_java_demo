@@ -32,4 +32,6 @@ public class Emp {
 
         System.out.println(a1);
     }
+
+	public int empNo;
 }

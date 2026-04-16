@@ -13,4 +13,9 @@ public class Collection {
 		System.out.println(a1);
 	}
 
+	public static void sort(ArrayList<Integer> a1) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
