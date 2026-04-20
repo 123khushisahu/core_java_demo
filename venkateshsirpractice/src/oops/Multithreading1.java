@@ -1,0 +1,15 @@
+package oops;
+
+public class Multithreading1 {
+
+	public static void main(String[] args) {
+		Thread t=Thread.currentThread();
+		System.out.println(t.getName());
+		System.out.println(t.getPriority());
+		t.setName("sample");
+		t.setPriority(10);
+		System.out.println(t.getName());
+		System.out.println(t.getPriority());
+	}
+
+}
