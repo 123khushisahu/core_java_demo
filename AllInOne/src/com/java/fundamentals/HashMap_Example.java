@@ -113,10 +113,28 @@ public class HashMap_Example {
 		
 		System.out.println(linkedhashmap.replace(1040, "Akhilesh"));
 		
+		System.out.println(linkedhashmap+"\n");
+//		System.out.println("before clear method"+linkedhashmap);
+//		linkedhashmap.clear();
+//		System.out.println("after clear method"+linkedhashmap);
+		
+		System.out.println(" size method"+linkedhashmap.size());
+		System.out.println(" empty method"+linkedhashmap.isEmpty());
+		System.out.println(" containsKey available method "+linkedhashmap.containsKey(101));
+		System.out.println(" containsKey not method "+linkedhashmap.containsKey(1001));
+		
+		System.out.println(" containsvalue available method "+linkedhashmap.containsValue("Vijay"));
+		System.out.println(" containsvalue not method "+linkedhashmap.containsValue("khushi"));
+		
+		System.out.println(linkedhashmap.hashCode());
+		
 		System.out.println(linkedhashmap);
+		linkedhashmap.replaceAll();
+
+
+
 		
-		
-		System.out.println("---------------------TREEMap---------------------------------");
+		System.out.println("---------------------TreeMap---------------------------------");
 		// TreeMap Definition
 
 		// TreeMap is a class in Java that stores
@@ -134,14 +152,8 @@ public class HashMap_Example {
 		ti.put("BZXPB40", "KOMAL");
 		ti.put("BZXPB15", "KOMAL");
 		
-		System.out.println(ti);
-		
-		
-		
-		
-		
-		
-		
+		System.out.println(ti);	
+		System.out.println("hc"+ti.hashCode());       //integer number
 	}
 
 }

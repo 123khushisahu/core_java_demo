@@ -9,6 +9,7 @@ public class List_Interface_example {
 	public static void main(String[] args) {
 		
 		
+		
 		System.out.println("hi this is collection in core java all topics .....");
 		
 	/*	Collection 
@@ -20,7 +21,7 @@ public class List_Interface_example {
 		// Definition of List Interface Types
 
 		/*
-		1. ArrayList
+		1. ArrayList																	
 		   ArrayList is a class that implements List interface.
 		   It uses dynamic array to store data.
 		   It allows duplicate elements and maintains insertion order.
@@ -61,13 +62,29 @@ public class List_Interface_example {
 		
 		
 		
-		
-		
-		
-		
-		
-		
-
 	}
 
 }
+
+/*
+
+list={1,2,3,4,5};
+
+
+Linklist                                       arraylist
+-----------------------------------------------------------------
+faster                                            slower
+size not fixed                                   size fixed
+for insertion this is fast                     for insertion this is slow
+for select data this is slow                    for select data this is fast
+
+
+
+1    - previous node ,next node                       1 - index no-0
+2    - previous node ,next node                       2 - index no-1
+
+                       
+4    - previous node ,next node                       4 - index no-2
+5    - previous node ,next node                       5 - index no-3
+
+*/
