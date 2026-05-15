@@ -11,7 +11,7 @@ package december;
 			System.out.println("B m1");
 			A.m1();
 			
-			A a1 = new B();
+			A a1 = new Bv();
 			a1.m1();
 			
 			//super.m1(); //CE:
@@ -24,11 +24,11 @@ package december;
 			System.out.println("B main");	
 			m1();
 			
-			System.out.println();
+			System.out.println();//means  1line space in console
 			
-			B b1 = new B();
+			Bv b1 = new Bv();
 			b1.m2();
 		}
 	}
 
-}
+

@@ -8,11 +8,11 @@ public class Khu {
 			
 
 			for(;n>0;n/=10) {
-				int digit=n%10;
+				int digite=n%10;
 				
-					digit+=digit;
+					digite+=digite;
 			}
-			System.out.println("sum of digit=" +digit);
+			System.out.println("sum of digit=" +digite);
 			
 	}
 

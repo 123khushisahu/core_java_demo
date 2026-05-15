@@ -1,4 +1,4 @@
-package com.java8features;
+package java8Features;
 
 public class LambdaExpre {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.java8features;
+package java8Features;
 
 @FunctionalInterface
 public interface Demo {

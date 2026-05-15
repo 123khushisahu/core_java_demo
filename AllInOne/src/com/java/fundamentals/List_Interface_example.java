@@ -75,7 +75,7 @@ Linklist                                       arraylist
 -----------------------------------------------------------------
 faster                                            slower
 size not fixed                                   size fixed
-for insertion this is fast                     for insertion this is slow
+for insertion/deletion this is fast             for insertion/deletion this is slow
 for select data this is slow                    for select data this is fast
 
 

@@ -41,7 +41,7 @@ public class HashMap_Example {
           // in key-value pair format where keys are unique. and values can be duplicate 
 		
 		// If duplicate key is added in HashMap,
-         // old value gets replaced by new value.
+        // old value gets replaced by new value.
 		*/
 		
 		
@@ -129,7 +129,140 @@ public class HashMap_Example {
 		System.out.println(linkedhashmap.hashCode());
 		
 		System.out.println(linkedhashmap);
-		linkedhashmap.replaceAll();
+	//	linkedhashmap.replaceAll();
+		
+		System.out.println("=================================================================================");
+
+				// Creating HashMap
+				HashMap<Integer, String> map = new HashMap<>();
+
+
+				// 1. put()
+				map.put(1, "Java");
+				map.put(2, "Python");
+				map.put(3, "C++");
+
+				System.out.println("put(): " + map);
+
+
+				// 2. get()
+				System.out.println("get(): " + map.get(1));
+
+
+				// 3. remove()
+				map.remove(3);
+
+				System.out.println("remove(): " + map);
+
+
+				// 4. replace()
+				map.replace(2, "SpringBoot");
+
+				System.out.println("replace(): " + map);
+
+
+				// 5. size()
+				System.out.println("size(): " + map.size());
+
+
+				// 6. isEmpty()
+				System.out.println("isEmpty(): " + map.isEmpty());
+
+
+				// 7. containsKey()
+				System.out.println("containsKey(): " + map.containsKey(1));
+
+
+				// 8. containsValue()
+				System.out.println("containsValue(): " + map.containsValue("Java"));
+
+
+				// 9. keySet()
+				System.out.println("keySet(): " + map.keySet());
+
+
+				// 10. values()
+				System.out.println("values(): " + map.values());
+
+
+				// 11. entrySet()
+				System.out.println("entrySet(): " + map.entrySet());
+
+
+				// 12. putIfAbsent()
+				map.putIfAbsent(4, "Hibernate");
+
+				System.out.println("putIfAbsent(): " + map);
+
+
+				// 13. forEach()
+				map.forEach((k,v) -> System.out.println(k + " : " + v));
+
+
+				// 14. getOrDefault()
+				System.out.println("getOrDefault(): "
+						+ map.getOrDefault(5, "Not Found"));
+
+
+				// 15. replaceAll()
+				map.replaceAll((k,v) -> v.toUpperCase());
+
+				System.out.println("replaceAll(): " + map);
+
+
+				// 16. clone()
+				HashMap<Integer, String> map2 =
+						(HashMap<Integer, String>) map.clone();
+
+				System.out.println("clone(): " + map2);
+
+
+				// 17. equals()
+				System.out.println("equals(): " + map.equals(map2));
+
+
+				// 18. hashCode()
+				System.out.println("hashCode(): " + map.hashCode());
+
+
+				// 19. compute()
+				map.compute(1, (k,v) -> v + " Developer");
+
+				System.out.println("compute(): " + map);
+
+
+				// 20. computeIfAbsent()
+				map.computeIfAbsent(5, k -> "Microservices");
+
+				System.out.println("computeIfAbsent(): " + map);
+
+
+				// 21. computeIfPresent()
+				map.computeIfPresent(2,
+						(k,v) -> v + " Framework");
+
+				System.out.println("computeIfPresent(): " + map);
+
+
+				// 22. merge()
+				map.merge(1, " Expert",
+						(oldValue,newValue)
+						-> oldValue + newValue);
+
+				System.out.println("merge(): " + map);
+
+
+				// 23. clear()
+				map.clear();
+
+				System.out.println("clear(): " + map);
+			
+				
+				System.out.println("===============================================================================");
+
+		
+		 
+		 
 
 
 
@@ -153,7 +286,17 @@ public class HashMap_Example {
 		ti.put("BZXPB15", "KOMAL");
 		
 		System.out.println(ti);	
-		System.out.println("hc"+ti.hashCode());       //integer number
+		System.out.println("hc"+ti.hashCode());   
+		
+		//integer number
+		
+		
+		HashMap<Integer,String> map1=new HashMap<>();
+		map.put(1,"rani");
+		map.put(2, "janvi");
+		map.put(1, "riya");
+		
+		System.out.println(map);
 	}
 
 }
