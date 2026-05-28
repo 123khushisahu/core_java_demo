@@ -1,6 +1,6 @@
 package encapsulations;
 
-public class Encap {
+public class BankAccountMainClass {
 
 	public static void main(String[] args) {
 	BankAccount	bank1=new BankAccount();

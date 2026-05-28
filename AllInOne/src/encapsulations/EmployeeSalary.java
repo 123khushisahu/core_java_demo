@@ -1,12 +1,12 @@
 package encapsulations;
 
-public class Set4 {
+public class EmployeeSalary {
 
 	public static void main(String[] args) {
 		B e1=new B();
 		e1.display();
-		e1.setEno(101);
-		e1.setEname("hk");
+		//e1.setEno(101);
+		//e1.setEname("hk");
 		e1.setsal(1000);
 		e1.display();
 		e1.setsal(e1.getsal()+e1.getsal()*20/1000);
@@ -24,6 +24,7 @@ class B{
 	private double sal;
 	public void setsal(double sal) {
 		this.sal=sal;
+		System.out.println("hii");
 	}
 	public double getsal() {
 		return sal;

@@ -7,8 +7,7 @@ package com.java.fundamentals;
 // The element added first is removed first.
 import java.util.LinkedList;
 import java.util.Queue;
-
-public interface Queue1 {
+public interface Queue_interface {
 	
 	    public static void main(String[] args) {
 

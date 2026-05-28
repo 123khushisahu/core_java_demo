@@ -2,10 +2,7 @@ package encapsulations;
 
 public class SetterGetter {
 	private int sno;
-	pri
-	
-	
-	vate String sname;
+	private String sname;
 	private double sal;
 	public void setsno(int sno) {
 		this.sno=sno;

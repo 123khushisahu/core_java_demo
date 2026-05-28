@@ -1,6 +1,6 @@
 package encapsulations;
 
-public class SettterGetter2 {
+public class SettterGetterMainClass {
 
 	public static void main(String[] args) {
 		SetterGetter s1=new SetterGetter();

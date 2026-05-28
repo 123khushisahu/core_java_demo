@@ -1,6 +1,6 @@
 package encapsulations;
 
-public class setter3 {
+public class setterGetterMainAlso {
 	public static void main(String[] args) {
 		A ob=new A();
 		ob.setsno(101);

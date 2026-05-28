@@ -5,8 +5,9 @@ package encapsulations;
 
 //BankAccount.java
 class BankAccount {
-
-	private double balance;
+	
+private double balance;
+	
 	
 	public void setBalance(double balance) throws IllegalArgumentException {
 		if(balance <=0 )
@@ -14,12 +15,14 @@ class BankAccount {
 		
 		this.balance = balance;	
 	}
+
 	
 	public double getBalance() {
 		return balance;	
 	}
 
 }
+
 
 //in above program 
 	//throw is used for throwing an exception, when wrong values are passed

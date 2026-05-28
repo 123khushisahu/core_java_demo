@@ -10,7 +10,7 @@ public class Human {
 //System.out.println(obj.age);
 		System.out.println(obj.getName());
 		obj.setName("khushi");
-		System.out.println(obj.getName());
+		//System.out.println(obj.getName());
 		//System.out.println(obj.age);
 	}
 
