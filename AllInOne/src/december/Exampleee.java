@@ -1,6 +1,6 @@
 package december;
 
-public class Example
+public class Exampleee
 	Exampleee(){
 		super();
 		x=20;

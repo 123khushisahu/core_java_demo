@@ -38,28 +38,12 @@ public class Arrays_java_example {
 			
 		}
 		
-		
 		System.out.println("----------------------if i want to print Integer-------------------------------");
-              
-		
-		
 		int[] mynum = {10, 20, 30, 40};
 		
 		   for(int mynumlistvariable :mynum ) {
 			   
-			System.out.println(mynumlistvariable);
-			
+			System.out.println(mynumlistvariable);			
 		}
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
 	}
-
 }

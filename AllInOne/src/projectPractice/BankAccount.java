@@ -4,9 +4,9 @@ public class BankAccount {
 	static String bankName;  //n cap small no need only first vari small
 	static String branchName;
 	static String ifsc;
-	static String accNum;
+	static long accNum;
 	static String accHName;
-	static String balance;
+	static double balance;
 	
 
 }

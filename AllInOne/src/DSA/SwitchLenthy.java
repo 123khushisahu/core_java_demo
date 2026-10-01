@@ -17,8 +17,8 @@ public class SwitchLenthy {
         System.out.println("2:Substraction (-)");
         System.out.println("3:Multiplication (*)");
         System.out.println("4:Division (/)");
-        System.out.println("5:Modulo (%)");
-        
+        System.out.println("5:Modulo (%)\n");
+        System.out.println("choose the number!!");
         int choice=sc.nextInt();
         
         //switch case

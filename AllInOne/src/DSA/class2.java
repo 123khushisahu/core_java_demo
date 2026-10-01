@@ -28,7 +28,7 @@ public class class2 {
 		int shor=pro/sum;
 		System.out.println(shor);
 		
-		System.out.println();
+		System.out.println("End");
 	}
 
 }

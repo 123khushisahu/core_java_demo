@@ -9,9 +9,9 @@ public class Bank {
 		BankAccount.ifsc="123khuam";
 
 	//creating two instances from BankAccount class
-//	BankAccount acc1=new BankAccount(); // for hk
-//	BankAccount acc2=new BankAccount();  //for bk 
-		'lk'
+	BankAccount acc1=new BankAccount(); // for hk
+BankAccount acc2=new BankAccount();  //for bk 
+		
 		
 		System.out.println("++++++++++acc2 details+++++++++++++");
 		System.out.println("acc2.bankName\t\t:"+acc2.bankName);
@@ -21,9 +21,9 @@ public class Bank {
 		System.out.println("acc2.accHName:\t\t" +acc2.accHName);
 		System.out.println("acc2.balance:\t\t" +acc2.balance);
 		//initializing acc1 instance with hk values
-		acc1.accNum="1234";
+		acc1.accNum=1234l;
 		acc1.accHName="hk";
-		acc1.balance="100000000";
+		acc1.balance=100000000;
 		System.out.println("\n ***********acc1 detail******");
 		System.out.println("acc1.bankName\t\t:" +acc1.bankName);
 		System.out.println("acc1.branchName\t\t:" +acc1.branchName);
@@ -41,9 +41,9 @@ public class Bank {
 		System.out.println("acc2.accNum\t\t:"+acc2.accNum);
 		System.out.println("acc2.balance\t\t:" +acc2.balance);
 		//initializing acc2 instance with bk values
-		acc2.accNum="3245";
+		acc2.accNum=1245l;
 		acc2.accHName="bk";
-		acc2.balance="9888";
+		acc2.balance=9888.0;
 		System.out.println(" \n ::::::::::::acc1 details::::::::::");
 		System.out.println("acc1.bankName\t\t:" +acc1.bankName);
 		System.out.println("acc1.branchName\t\t:" +acc1.branchName);

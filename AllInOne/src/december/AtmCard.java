@@ -7,7 +7,7 @@ interface Vehicle {
 
 }
 
-interface Software {
+ abstract class Software {
 	abstract void design();
 	abstract void develop();
 	abstract void test();
@@ -16,7 +16,7 @@ interface Software {
  class Dog{
 	
 }
-class Tata  implements Software {	
+class Tata extends  Software implements Vehicle {	
 										
 
 

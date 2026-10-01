@@ -1,6 +1,7 @@
 package snippet;
 
 public class Snippet {
+	/*
 	list={1,2,3,4,5};
 	
 	
@@ -20,6 +21,6 @@ public class Snippet {
 	4    - previous node ,next node                       4 - index no-2
 	5    - previous node ,next node                       5 - index no-3
 	
-	
+	*/
 }
 

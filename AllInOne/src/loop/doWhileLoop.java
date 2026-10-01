@@ -1,0 +1,14 @@
+package loop;
+
+import java.util.Scanner;
+
+public class doWhileLoop {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);//input
+		int num=sc.nextInt();
+		for(int i=1; i<=11;i++) {
+			System.out.println("hiis==>"+i);
+			
+		}
+	}
+}

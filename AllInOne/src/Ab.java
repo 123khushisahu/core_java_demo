@@ -4,8 +4,8 @@ public class Ab {
 	int b;
 
 	public static void main(String[] args) {
-		a=10;
-		b=20;
+		int a=10;
+		 int b=20;
 		System.out.println("hii");
 		
 

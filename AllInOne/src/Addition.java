@@ -8,7 +8,7 @@ public class Addition {
 			try {
 //				int a=Integer.parseInt(IO.readln("ENTER FNO:"));
 //				int a=Integer.parseInt(IO.readln("ENTER SNO:"));
-				int RES=Addition.add(a,b);
+				int res=Addition.add(a,b);
 				System.out.println("RESULT:"+res);
 				break;
 			}
@@ -26,7 +26,7 @@ public class Addition {
 class A11{
 	static int add(int a,int b)throws NegativeNumberException{
 		if(a<0||b<0) {
-			throw new NegativeNumberException("do not pass -ve numbera":)
+			throw new NegativeNumberException("do not pass -ve numbera");
 		}
 		int res=a+b;
 		return res;

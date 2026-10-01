@@ -1,6 +1,6 @@
 package novemberprogram;
 
-public class  implements A1{
+public class A3 implements A1{
 
 	@Override
 	public void m1() {

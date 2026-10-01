@@ -38,7 +38,7 @@ public class Test03_FIS {
 //				System.out.println(data5+"  " + (char)data5);
 //				System.out.println(data6+"  " + (char)data6);
 				
-				DataInputStream dis = new DataInputStream();
+				DataInputStream dis = new DataInputStream(fis);
 				int number =100;
 			
 				int data;
